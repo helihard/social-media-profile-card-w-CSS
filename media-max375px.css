@@ -1,0 +1,11 @@
+@media (max-width: 375px) {
+
+  #wrapper {
+    align-items: flex-start;
+    background-position: -740px -640px, 110px 280px;
+  }
+
+  #container {
+    margin-top: 7.5rem;
+  }
+}
