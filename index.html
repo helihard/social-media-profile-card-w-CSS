@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="styles.css" rel="stylesheet">
   <link href="text-styles.css" rel="stylesheet">
@@ -18,20 +21,19 @@
         <img src="images/image-victor.jpg">
       </div>
       <div id="text-content">
-        <p>Victor Crest 26</p>
-        <p>London</p>
-        <table>
-          <tr>
-            <th>80K</th>
-            <th>803K</th>
-            <th>1.4K</th>
-          </tr>
-          <tr>
-            <td>Followers</td>
-            <td>Likes</td>
-            <td>Photos</td>
-          </tr>
-        </table>
+        <p id="name-age">
+          <strong>Victor Crest</strong>
+          <span style="color:var(--darkgray);margin-left:.4rem;">26</span>
+        </p>
+        <p id="city">London</p>
+        <div id="stats-grid">
+          <strong>80K</strong>
+          <strong>803K</strong>
+          <strong>1.4K</strong>
+          <span>Followers</span>
+          <span>Likes</span>
+          <span>Photos</span>
+        </div>
       </div> <!-- end "text-content" -->
     </div> <!-- end "container"-->
   </div> <!-- end "wrapper" -->
