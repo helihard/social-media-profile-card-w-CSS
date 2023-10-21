@@ -1,0 +1,38 @@
+p {
+  margin: 0;
+}
+
+#name-age {
+  font-size: 1.1rem;
+  margin-bottom: .6rem;
+}
+
+#city {
+  color: var(--darkgray);
+  font-size: .8rem;
+}
+
+strong {
+  color: var(--verydarkblue);
+  font-weight: 700;
+}
+
+#stats-grid strong {
+  font-size: 1.1rem;
+  margin-bottom: .2rem;
+}
+
+#stats-grid span {
+  color: var(--darkgray);
+  font-size: .6rem;
+  letter-spacing: .09rem;
+}
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
